@@ -1,6 +1,4 @@
-// @import _nav;
-// @import _about;
-// @import _variables;
+@import 'variables.scss', 'nav.scss', 'about.scss';
 
 *{
      margin: 0;
