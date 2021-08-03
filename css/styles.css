@@ -1,17 +1,39 @@
-/* Error: Expected string.
- *   ,
- * 1 | @import _nav;
- *   |         ^
- *   '
- *   sass\styles.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected string.\a   \2577 \a 1 \2502  @import _nav;\d\a   \2502          ^\a   \2575 \a   sass\\styles.scss 1:9  root stylesheet";
+header ul {
+  font-weight: bold;
 }
+
+header ul {
+  color: aqua;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+* img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  background-color: #f80606;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

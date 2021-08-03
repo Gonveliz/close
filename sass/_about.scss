@@ -1,0 +1,30 @@
+// MOBILE
+@media (min-width: 320px){
+
+}
+// TABLET
+@media (min-width: 768px){
+
+}
+// DESKTOP
+@media (min-width: 1200px){
+
+}
+.about-us{
+    ul{
+        li{
+            div {
+                width: 100px; 
+                height: 100px; 
+                border: 3px solid #555; 
+                background: #428bca;
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+                border: 2px solid black;
+           }
+        }
+    }
+}
