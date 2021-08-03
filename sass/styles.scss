@@ -5,12 +5,12 @@
      padding: 0;
      box-sizing: border-box;
      scroll-behavior: smooth;
- }
+}
 
 * img {
     width: 100%;
     height: auto;
- }
+}
 
 body{
     width: 100vw;
@@ -22,9 +22,9 @@ body{
     background-color: $variable;
 }
 
-// main {
-//     width: 100%;
-// }
+main {
+    width: 100%;
+}
 
 li {
     list-style: none;
