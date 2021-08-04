@@ -1,4 +1,4 @@
-@import 'variables.scss', 'nav.scss', 'about.scss';
+@import 'variables.scss', 'nav.scss', 'about.scss', 'footer.scss';
 
 *{
      margin: 0;
@@ -19,7 +19,7 @@ body{
     max-height: 100%;
     font-size: 1rem;
     font-family: 'Rubik', sans-serif;
-    background-color: $variable;
+    background-color: $intense-color;
 }
 
 main {
