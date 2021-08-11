@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 @media (min-width: 200px) {
   .principalWrapper {
@@ -347,8 +348,21 @@ li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
+/* Error: expected ";".
+ *   ,
+ * 1 | @import 'variables.scss', 'header.scss' 'nav.scss', 'about.scss', 'footer.scss';
+ *   |                                         ^
+ *   '
+ *   sass\styles.scss 1:41  root stylesheet */
 
-/*# sourceMappingURL=styles.css.map */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected \";\".\a   \2577 \a 1 \2502  @import 'variables.scss', 'header.scss' 'nav.scss', 'about.scss', 'footer.scss';\d\a   \2502                                          ^\a   \2575 \a   sass\\styles.scss 1:41  root stylesheet";
+}
