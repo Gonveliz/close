@@ -1,0 +1,47 @@
+@import 'variables.scss', 'nav.scss', 'about.scss', 'footer.scss','canyouhelp.scss','inscribirse.scss';
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+
+* img {
+    width: 100%;
+    height: auto;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    background-color: $intense-color;
+}
+
+main {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+// MOBILE
+@media (min-width: 320px){
+
+}
+// TABLET
+@media (min-width: 768px){
+
+}
+// DESKTOP
+@media (min-width: 1200px){
+
+}
