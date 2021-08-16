@@ -561,7 +561,7 @@ input[type=checkbox] {
     padding: 1rem;
   }
   .app-section .app-link img {
-    width: 100px;
+    width: 150px;
   }
 }
 @media (min-width: 1200px) {
