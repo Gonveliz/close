@@ -1,59 +1,64 @@
-@media (min-width: 320px){
+@media (min-width: 320px) {
 
-    .header{
-        width: 100%;
-        height: 110vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: no-repeat center url('../assets/img/header.jpg');
-        background-size: cover;
-        filter:brightness(0.6);
-           h1{
-        text-transform: uppercase;
-        color:$main-white;
-        text-shadow: 3px 3px #010407;
-        text-align:center;
-        font-size: 35px;
-        margin-bottom: 30px;
-        font-family: 'Oswald', sans-serif;}}
-             
- .buttonheader{
-  color:#000000;
-  background-color:$logo-color;
-  border-radius: 1rem;
-  border: 3px solid #000000;
-  font-size: 20px;
-  font-weight: 900;
-  text-transform: uppercase;
-  padding: 10px;
-  font-family: 'Oswald', sans-serif;
-}
+  .header {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat center url('../assets/img/header.jpg');
+    background-size: cover;
+    filter: brightness(0.6);
+
+    h1 {
+      text-transform: uppercase;
+      color: $main-white;
+      text-shadow: 3px 3px #010407;
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 30px;
+      font-family: 'Oswald', sans-serif;
+    }
+  }
+
+  .buttonheader {
+    color: #000000;
+    background-color: $logo-color;
+    border-radius: 1rem;
+    border: 3px solid #000000;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+  }
 }
 
 // TABLET
-@media (min-width: 768px){
-  .header{
-    h1{
-        font-size: 40px;
-      }
+@media (min-width: 768px) {
+  .header {
+    h1 {
+      font-size: 40px;
+    }
   }
-  .buttonheader{
+
+  .buttonheader {
     font-size: 25px;
-    padding:15px;
+    padding: 15px;
   }
 }
 
 // DESKTOP
-@media (min-width: 1200px){
-  .header{
-    h1{
-        font-size: 55px;
-      }
+@media (min-width: 1200px) {
+  .header {
+    h1 {
+      font-size: 55px;
+    }
   }
-  .buttonheader{
+
+  .buttonheader {
     font-size: 30px;
-    padding:15px;
+    padding: 15px;
   }
 }
