@@ -1,0 +1,171 @@
+// MOBILE
+@media (min-width: 320px) {
+    .can-u-help {
+        background-color: $low-color;
+        padding: 3rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        hr {
+            margin-top: 1rem;
+            background-color: $secundary-color;
+        }
+        div {
+            margin-top: 1rem;
+        }
+    }
+
+    .colaboration {
+        background-color: #242424;
+        text-align: center;
+        h2 {
+            margin-top: 1rem;
+            color: $white-color;
+        }
+        form {
+            ul {
+                li {
+                    margin-top: 1rem;
+                        .normal-input {
+                            border: 2px solid $low-color;
+                            border-radius: 0.4rem;
+                            width: 70%;
+                            height: 2rem;
+                            text-indent: 0.5rem;
+                        }
+                        .input-text {
+                            height: 5rem;
+                        }
+                        .buttonheader {
+                            margin-bottom: 1rem;
+                        }
+                    }
+                .pay-type {
+                    display: flex;
+                    justify-content: center;
+                    cursor: pointer;
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        img{
+                            height: 5rem;
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TABLET
+@media (min-width: 768px) {
+    .can-u-help {
+        padding: 4rem;
+        hr {
+            margin-top: 1rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        div {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            p{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .colaboration {
+        h2 {
+            font-size: 2rem;
+        }
+        form {
+            ul {
+                li {
+                    margin-top: 1rem;
+                        .normal-input {
+                            border: 2px solid $low-color;
+                            border-radius: 0.4rem;
+                            width: 70%;
+                            height: 3rem;
+                            text-indent: 0.5rem;
+                        }
+                        .input-text {
+                            height: 8rem;
+                        }
+                        .buttonheader {
+                            margin-bottom: 1rem;
+                        }
+                    }
+                .pay-type {
+                    div{
+                        img{
+                            height: 6rem;
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP
+@media (min-width: 1200px) {
+    .can-u-help {
+        padding: 8rem 15rem;
+        hr {
+            margin-top: 1rem;
+        }
+        h2{
+            font-size: 3rem;
+        }
+        div {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            p{
+                font-size: 1.5rem;
+                line-height: 3rem;
+            }
+        }
+    }
+
+    .colaboration {
+        padding: 6rem 15rem;
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+        form {
+            ul {
+                li {
+                    margin-top: 1rem;
+                        .normal-input {
+                            border: 2px solid $low-color;
+                            border-radius: 0.4rem;
+                            width: 70%;
+                            height: 3rem;
+                            text-indent: 0.5rem;
+                        }
+                        .input-text {
+                            height: 12rem;
+                        }
+                        .buttonheader {
+                            margin-bottom: 1rem;
+                        }
+                    }
+                .pay-type {
+                    div{
+                        img{
+                            height: 6rem;
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

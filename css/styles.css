@@ -9,7 +9,7 @@
     align-items: center;
     background: no-repeat center url("../assets/img/header.jpg");
     background-size: cover;
-    filter: brightness(0.6);
+    filter: brightness(0.9);
   }
   .header h1 {
     text-transform: uppercase;
@@ -22,15 +22,21 @@
   }
 
   .buttonheader {
-    color: #000000;
+    color: #242424;
     background-color: #FFF64A;
     border-radius: 1rem;
-    border: 3px solid #000000;
+    border: 0.15rem solid #242424;
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
     padding: 10px;
     font-family: "Oswald", sans-serif;
+    cursor: pointer;
+  }
+  .buttonheader:hover {
+    color: #ffffff;
+    background-color: #121212;
+    transition: 0.2s;
   }
 }
 @media (min-width: 768px) {
@@ -369,6 +375,150 @@ input[type=checkbox] {
   }
   .principal-footer ul li a {
     font-size: 1.3rem;
+  }
+}
+@media (min-width: 320px) {
+  .can-u-help {
+    background-color: #EEEBDD;
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .can-u-help hr {
+    margin-top: 1rem;
+    background-color: #1B1717;
+  }
+  .can-u-help div {
+    margin-top: 1rem;
+  }
+
+  .colaboration {
+    background-color: #242424;
+    text-align: center;
+  }
+  .colaboration h2 {
+    margin-top: 1rem;
+    color: #FFFFFF;
+  }
+  .colaboration form ul li {
+    margin-top: 1rem;
+  }
+  .colaboration form ul li .normal-input {
+    border: 2px solid #EEEBDD;
+    border-radius: 0.4rem;
+    width: 70%;
+    height: 2rem;
+    text-indent: 0.5rem;
+  }
+  .colaboration form ul li .input-text {
+    height: 5rem;
+  }
+  .colaboration form ul li .buttonheader {
+    margin-bottom: 1rem;
+  }
+  .colaboration form ul .pay-type {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .colaboration form ul .pay-type div {
+    display: flex;
+    flex-direction: row;
+  }
+  .colaboration form ul .pay-type div img {
+    height: 5rem;
+    width: auto;
+  }
+}
+@media (min-width: 768px) {
+  .can-u-help {
+    padding: 4rem;
+  }
+  .can-u-help hr {
+    margin-top: 1rem;
+  }
+  .can-u-help h2 {
+    font-size: 2rem;
+  }
+  .can-u-help div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .can-u-help div p {
+    font-size: 1.5rem;
+  }
+
+  .colaboration h2 {
+    font-size: 2rem;
+  }
+  .colaboration form ul li {
+    margin-top: 1rem;
+  }
+  .colaboration form ul li .normal-input {
+    border: 2px solid #EEEBDD;
+    border-radius: 0.4rem;
+    width: 70%;
+    height: 3rem;
+    text-indent: 0.5rem;
+  }
+  .colaboration form ul li .input-text {
+    height: 8rem;
+  }
+  .colaboration form ul li .buttonheader {
+    margin-bottom: 1rem;
+  }
+  .colaboration form ul .pay-type div img {
+    height: 6rem;
+    width: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .can-u-help {
+    padding: 8rem 15rem;
+  }
+  .can-u-help hr {
+    margin-top: 1rem;
+  }
+  .can-u-help h2 {
+    font-size: 3rem;
+  }
+  .can-u-help div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .can-u-help div p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .colaboration {
+    padding: 6rem 15rem;
+  }
+  .colaboration h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .colaboration form ul li {
+    margin-top: 1rem;
+  }
+  .colaboration form ul li .normal-input {
+    border: 2px solid #EEEBDD;
+    border-radius: 0.4rem;
+    width: 70%;
+    height: 3rem;
+    text-indent: 0.5rem;
+  }
+  .colaboration form ul li .input-text {
+    height: 12rem;
+  }
+  .colaboration form ul li .buttonheader {
+    margin-bottom: 1rem;
+  }
+  .colaboration form ul .pay-type div img {
+    height: 6rem;
+    width: auto;
   }
 }
 * {
