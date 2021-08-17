@@ -36,16 +36,19 @@
   .buttonheader:hover {
     color: #ffffff;
     background-color: #121212;
-    transition: 0.2s;
+    transition: 0.1s;
+    box-shadow: 1px 0px 25px -3px rgba(198, 198, 198, 0.75);
+    -webkit-box-shadow: 1px 0px 25px -3px rgba(198, 198, 198, 0.75);
+    -moz-box-shadow: 1px 0px 25px -3px rgba(198, 198, 198, 0.75);
   }
 }
 @media (min-width: 768px) {
   .header h1 {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   .buttonheader {
-    font-size: 25px;
+    font-size: 2rem;
     padding: 15px;
   }
 }
@@ -248,14 +251,14 @@ input[type=checkbox] {
     display: flex;
     justify-content: space-around;
   }
-  .about-us ul li {
-    padding: 1rem;
-  }
   .about-us ul li p {
     margin: 1rem 0;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+  }
+  .about-us ul li img {
+    padding: 1rem;
   }
 }
 @media (min-width: 1200px) {
@@ -293,20 +296,20 @@ input[type=checkbox] {
   }
   .principal-footer ul {
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
     justify-content: space-around;
   }
   .principal-footer ul li {
-    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 6rem;
   }
   .principal-footer ul li img {
-    width: 60%;
+    height: 3rem;
+    width: auto;
   }
   .principal-footer ul li a {
     color: #EEEBDD;
@@ -322,7 +325,7 @@ input[type=checkbox] {
     align-items: center;
   }
   .principal-footer div {
-    width: 70%;
+    width: 60%;
     margin: 2rem 0;
   }
   .principal-footer ul {
@@ -334,9 +337,10 @@ input[type=checkbox] {
   .principal-footer ul li {
     display: flex;
     flex-direction: column;
+    width: 8rem;
   }
   .principal-footer ul li img {
-    height: 80px;
+    height: 70px;
     width: auto;
   }
   .principal-footer ul li:last-child img {
@@ -367,8 +371,9 @@ input[type=checkbox] {
     flex-direction: column;
   }
   .principal-footer ul li img {
-    height: 80px;
+    height: 65px;
     width: auto;
+    cursor: pointer;
   }
   .principal-footer ul li:last-child img {
     padding: 0.5rem;
@@ -413,7 +418,7 @@ input[type=checkbox] {
     text-indent: 0.5rem;
   }
   .colaboration form ul li .input-text {
-    height: 5rem;
+    height: 7rem;
   }
   .colaboration form ul li .buttonheader {
     margin-bottom: 1rem;
@@ -511,7 +516,7 @@ input[type=checkbox] {
     text-indent: 0.5rem;
   }
   .colaboration form ul li .input-text {
-    height: 12rem;
+    height: 14rem;
   }
   .colaboration form ul li .buttonheader {
     margin-bottom: 1rem;
@@ -527,13 +532,15 @@ input[type=checkbox] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
+    text-align: center;
+    padding: 1rem;
     background-color: #ffffff;
   }
   .app-section h2 {
     text-align: center;
     padding: 0.5rem;
     font-size: 2rem;
+    font-weight: bold;
     text-transform: uppercase;
   }
   .app-section h3 {
@@ -562,6 +569,7 @@ input[type=checkbox] {
   }
   .app-section .app-link img {
     width: 150px;
+    cursor: pointer;
   }
 }
 @media (min-width: 1200px) {

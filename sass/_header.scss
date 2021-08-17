@@ -32,10 +32,14 @@
     padding: 10px;
     font-family: 'Oswald', sans-serif;
     cursor: pointer;
+
     &:hover{
       color: $main-white;
       background-color: $intense-color;
-      transition: 0.2s;
+      transition: 0.1s;
+      box-shadow: 1px 0px 25px -3px rgba(198,198,198,0.75);
+      -webkit-box-shadow: 1px 0px 25px -3px rgba(198,198,198,0.75);
+      -moz-box-shadow: 1px 0px 25px -3px rgba(198,198,198,0.75);
     }
   }
 }
@@ -44,12 +48,12 @@
 @media (min-width: 768px) {
   .header {
     h1 {
-      font-size: 40px;
+      font-size: 4rem;
     }
   }
 
   .buttonheader {
-    font-size: 25px;
+    font-size: 2rem;
     padding: 15px;
   }
 }

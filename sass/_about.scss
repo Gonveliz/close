@@ -26,12 +26,15 @@
             display: flex;
             justify-content: space-around;
             li{
-                padding: 1rem;
+                // padding: 1rem;
                p {
                    margin: 1rem 0;
                    font-size: 2rem;
                    font-weight: bold;
                    text-align: center;
+               }
+               img{
+                   padding: 1rem;
                }
             }
         }
