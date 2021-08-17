@@ -69,5 +69,13 @@
   .buttonheader {
     font-size: 30px;
     padding: 15px;
+    &:hover{
+      color: $main-white;
+      background-color: $intense-color;
+      transition: 0.1s;
+      box-shadow: 1px 0px 25px -3px rgba(198,198,198,0.75);
+      -webkit-box-shadow: 1px 0px 25px -3px rgba(198,198,198,0.75);
+      -moz-box-shadow: 1px 0px 25px -3px rgba(198,198,198,0.75);
+    }
   }
 }
