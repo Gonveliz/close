@@ -1,0 +1,32 @@
+// ----------------- Mobile ---------- //
+
+
+@media (min-width: 320px){
+
+    .author{
+    background: $main-white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $main-mobile-padding;
+
+
+    }
+
+    
+}
+
+
+// ----------------- Desktop ---------- //
+
+@media (min-width: 1200px){
+    
+
+
+
+    
+    }
+
+
+
